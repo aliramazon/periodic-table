@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+h3 {
+    color: #3A1BA2;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Header */
+.top {
+    list-style: none;
+    margin-bottom: 4px;
+
+}
+
+.top li {
+    width: 58px;
+    height: 58px;
+    display: inline-block;
+    color: #e74c3c;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.top > li:first-child {
+    font-size: 10px;
+}
+
+.top > li:nth-child(3){
+    margin-right: 10px;
+}
+
+/* Section Content */
+
+.section-content {
+    margin-bottom: 10px;
+}
+
+.side {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.side li {
+    color: #e74c3c;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+
+.section-content > .column:nth-child(3) {
+    margin-right: 10px;
+}
+
+/* Column */
+.column {
+    display: inline-block;
+}
+
+
+.element {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+
+.blue .element {
+    background-color: #689BFF;
+}
+
+.element p {
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+.pink .element {
+    background-color: #FD9A98;
+}
+
+.yellow .element {
+    background-color: #FECB00;
+}
+
+/* Section-bottom */
+
+.names {
+    width: 178px;
+    margin-right: 15px;
+    border:px solid grey;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.names h4 {
+    margin: 20px 10px 40px 50px;
+     color: #e74c3c;
+
+}
+.green .element {
+    background-color: #1FCA21;
+}
+
+span {
+    display: block;
+    padding: 20px;
+}
