@@ -78,6 +78,7 @@ main {
     width: 58px;
     height: 58px;
     margin-bottom: 2px;
+    padding-top: 6px;
     text-align: center;
 }
 
@@ -98,7 +99,6 @@ main {
 
 .element p {
     font-size: 10px;
-    padding-top: 4px;
 }
 
 .element h3 {
